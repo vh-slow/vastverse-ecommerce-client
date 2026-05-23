@@ -1,0 +1,175 @@
+{
+    "shop": {
+        "login": {
+            "title": "Đăng Nhập Khách Hàng",
+            "breadcrumbs": {
+                "shop": "Trang chủ",
+                "login": "Đăng nhập"
+            }
+        },
+
+        "header": {
+            "search_placeholder": "Tìm kiếm sản phẩm...",
+            "account_label": "Tài khoản",
+            "account_loading": "Đang tải...",
+            "account_signin": "Đăng nhập",
+            "cart_label": "Giỏ hàng",
+            "nav": {
+                "shop": "Trang Chủ",
+                "about": "Giới Thiệu",
+                "products": "Tất Cả Sản Phẩm",
+                "new_arrivals": "Hàng Mới Về",
+                "on_sellers": "Bán Chạy Nhất"
+            }
+        },
+
+        "footer": {
+            "store_locations": "Hệ Thống Cửa Hàng",
+            "quick_links": "Liên Kết Nhanh",
+            "customer_support": "Hỗ Trợ Khách Hàng",
+            "newsletter_title": "Đăng Ký Nhận Tin",
+            "newsletter_desc": "Nhận thông tin mới nhất về các chương trình khuyến mãi và sản phẩm công nghệ.",
+            "email_placeholder": "Nhập email của bạn...",
+            "subscribe": "Đăng ký",
+            "copyright": "VastVerse. Tất cả quyền được bảo lưu.",
+            "follow_us": "Theo dõi chúng tôi",
+            "offices": [
+                "123 Nguyễn Văn Cừ, Quận 5, TP.HCM",
+                "456 Tôn Đức Thắng, Liên Chiểu, Đà Nẵng",
+                "789 Cầu Giấy, Đống Đa, Hà Nội"
+            ],
+            "quickLinks": [
+                { "label": "Trang chủ", "href": "/" },
+                { "label": "Giới thiệu", "href": "/about" },
+                { "label": "Sản phẩm", "href": "/products" },
+                { "label": "Tin tức công nghệ", "href": "/blogs" }
+            ],
+            "supportLinks": [
+                { "label": "Câu hỏi thường gặp (FAQ)", "href": "/faq" },
+                { "label": "Chính sách bảo mật", "href": "/privacy-policy" },
+                { "label": "Chính sách đổi trả", "href": "/return-policy" },
+                { "label": "Liên hệ với chúng tôi", "href": "/contact" }
+            ]
+        },
+
+        "home": {
+            "hero": {
+                "no_banners": "Hệ thống đang cập nhật Banner...",
+                "no_products": "Đang cập nhật sản phẩm Flash Sale...",
+                "badge": "Siêu Khuyến Mãi",
+                "button": "Xem Chi Tiết",
+                "limited_offer": "Ưu đãi có hạn"
+            },
+
+            "features": [
+                {
+                    "title": "Miễn phí vận chuyển",
+                    "subtitle": "Cho đơn hàng trên 500.000đ",
+                    "icon": "/images/icons/icon-01.svg",
+                    "alt": "Free Shipping Icon"
+                },
+                {
+                    "title": "Đổi trả 1 : 1",
+                    "subtitle": "Hủy đơn sau 1 ngày",
+                    "icon": "/images/icons/icon-02.svg",
+                    "alt": "Returns Icon"
+                },
+                {
+                    "title": "Thanh toán an toàn 100%",
+                    "subtitle": "Đảm bảo giao dịch bảo mật",
+                    "icon": "/images/icons/icon-03.svg",
+                    "alt": "Secure Payments Icon"
+                },
+                {
+                    "title": "Hỗ trợ tận tâm 24/7",
+                    "subtitle": "Mọi lúc, mọi nơi",
+                    "icon": "/images/icons/icon-04.svg",
+                    "alt": "Support Icon"
+                }
+            ],
+
+            "categories": {
+                "subtitle": "Danh Mục",
+                "title": "Mua Sắm Theo Ngành Hàng",
+                "more": "Xem Thêm +"
+            },
+
+            "new_arrivals": {
+                "subtitle": "Khám Phá Công Nghệ",
+                "title": "Hàng Mới Lên Kệ",
+                "view_all": "Xem Tất Cả",
+                "no_products": "Chưa có sản phẩm mới nào được cập nhật."
+            },
+
+            "on_sellers": {
+                "subtitle": "Được Yêu Thích Nhất",
+                "title": "Sản Phẩm Bán Chạy",
+                "view_all": "Xem Tất Cả",
+                "no_products": "Đang cập nhật danh sách bán chạy..."
+            }
+        },
+
+        "product_card": {
+            "quick_view": "Xem nhanh",
+            "add_to_cart": "Thêm vào giỏ",
+            "add_to_wishlist": "Yêu thích",
+            "in_stock": "Còn hàng",
+            "out_of_stock": "Hết hàng",
+            "no_desc": "Chưa có mô tả cho sản phẩm này.",
+            "messages": {
+                "add_success": "Đã thêm vào giỏ hàng thành công!",
+                "add_failed": "Lỗi! Không thể thêm vào giỏ hàng."
+            }
+        },
+
+        "products": {
+            "title_explore": "Khám Phá Sản Phẩm",
+            "title_search": "Kết quả tìm kiếm cho: {{query}}",
+            "breadcrumbs": {
+                "home": "Trang chủ",
+                "shop": "Cửa hàng"
+            },
+            "filters": {
+                "category": "Danh mục",
+                "price": "Khoảng giá",
+                "clean_search": "Xóa bộ lọc"
+            },
+            "toolbar": {
+                "filter_label": "Sắp xếp & Lọc:",
+                "sort_default": "Mặc định",
+                "sort_best_selling": "Bán chạy nhất",
+                "sort_latest": "Mới nhất",
+                "sort_oldest": "Cũ nhất",
+                "sort_price_asc": "Giá: Thấp đến Cao",
+                "sort_price_desc": "Giá: Cao đến Thấp",
+                "showing_text": "Hiển thị {{count}} trên tổng {{total}}",
+                "grid_view": "Dạng lưới",
+                "list_view": "Dạng danh sách"
+            },
+            "pagination": {
+                "prev": "Trước",
+                "next": "Sau"
+            },
+            "no_products": {
+                "title": "Không tìm thấy sản phẩm",
+                "desc_line1": "Rất tiếc, không có sản phẩm nào khớp với lựa chọn của bạn.",
+                "desc_line2": "Thử điều chỉnh lại bộ lọc hoặc khoảng giá xem sao nhé!"
+            }
+        },
+
+        "product_detail": {
+            "reviews_count": "(0 đánh giá)",
+            "in_stock": "Còn hàng",
+            "out_of_stock": "Hết hàng",
+            "free_delivery": "Hỗ trợ giao hàng miễn phí",
+            "discount_code": "Giảm 30% khi nhập mã:",
+            "return_policy": "Chính sách đổi trả 30 ngày",
+            "category_label": "Danh mục:",
+            "brand_label": "Thương hiệu:",
+            "purchase_now": "Mua Ngay",
+            "add_to_cart": "Thêm vào giỏ",
+            "variant_label": "Các phân loại:",
+            "you_might_also_like": "Có Thể Bạn Sẽ Thích"
+        }
+    }
+}

@@ -1,0 +1,53 @@
+{
+    "auth_guard": {
+        "unauthenticated": "Bạn chưa đăng nhập!",
+        "unauthorized": "Bạn không có quyền truy cập trang này!",
+        "loading": "Đang kiểm tra quyền truy cập..."
+    },
+
+    "login": {
+        "title": "Đăng Nhập Quản Trị",
+        "subtitle": "Vui lòng nhập thông tin để truy cập bảng điều khiển hệ thống",
+        "username_label": "Email đăng nhập",
+        "username_placeholder": "Nhập địa chỉ email của bạn...",
+        "password_label": "Mật khẩu",
+        "password_placeholder": "Nhập mật khẩu...",
+        "remember_me": "Ghi nhớ phiên đăng nhập",
+        "forgot_password": "Quên mật khẩu?",
+        "sign_in_btn": "Đăng Nhập Ngay",
+        "messages": {
+            "login_failed": "Email hoặc mật khẩu không chính xác. Vui lòng thử lại!"
+        },
+        "breadcrumbs": {
+            "shop": "Trang chủ",
+            "login": "Đăng nhập Admin"
+        }
+    },
+
+    "sidebar": {
+        "add_new": "Thêm Mới",
+        "pages": "TRANG CHÍNH",
+        "overview": "Tổng quan Dashboard",
+        "store_management": "Quản lý Cửa Hàng",
+        "orders": "Đơn hàng",
+        "banners": "Quản lý Banners",
+        "catalog": "Danh mục Sản phẩm",
+        "all_products": "Tất cả Sản phẩm",
+        "categories": "Danh mục ngành hàng",
+        "specifications": "Thông số kỹ thuật",
+        "inventory": "Quản lý Kho Bãi",
+        "stock_ins": "Nhập hàng",
+        "suppliers": "Nhà cung cấp",
+        "warehouses": "Quản lý Chi nhánh/Kho",
+        "system": "Hệ Thống & Nhân Sự",
+        "users": "Khách hàng & Phân quyền",
+        "team_members": "Hồ sơ nhân viên",
+        "audit_logs": "Nhật ký hệ thống",
+        "my_profile": "Hồ sơ của tôi",
+        "change_password": "Đổi mật khẩu",
+        "language": "Ngôn ngữ",
+        "select_language": "Chọn Ngôn ngữ",
+        "logout": "Đăng xuất",
+        "outline": "MẠNG XÃ HỘI"
+    }
+}
