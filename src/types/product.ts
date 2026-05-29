@@ -36,3 +36,29 @@ export interface PriceRangeResponse {
     minPrice: number;
     maxPrice: number;
 }
+
+export interface VariantForm {
+    id?: number;
+    tempId: string;
+    sku: string;
+    variantName: string;
+    price: string;
+    initialStock: string;
+    rawFile: File | null;
+    previewUrl: string | null;
+    originalImageUrl?: string | null;
+}
+
+export interface ProductSpecForm {
+    tempId: string;
+    specificationId: number | null;
+    specificationName: string;
+    value: string;
+}
+
+export interface ProductImageForm {
+    id?: number;
+    file?: File;
+    preview: string;
+    isMain?: boolean;
+}

@@ -5,6 +5,130 @@
         "loading": "Đang kiểm tra quyền truy cập..."
     },
 
+    "dashboard": {
+        "title": "Hệ thống",
+        "filters": {
+            "today": "Hôm nay",
+            "last_7_days": "7 ngày qua",
+            "last_30_days": "30 ngày qua",
+            "this_month": "Tháng này",
+            "this_year": "Năm nay",
+            "all_time": "Toàn thời gian"
+        },
+        "summary": {
+            "revenue": "Tổng doanh thu",
+            "orders": "Tổng đơn hàng",
+            "customers": "Khách hàng mới",
+            "pending_orders": "Đơn chờ xử lý"
+        },
+        "charts": {
+            "revenue_title": "Thống kê Doanh thu & Đơn hàng",
+            "status_title": "Tỷ lệ trạng thái đơn hàng",
+            "no_data": "Chưa có dữ liệu thống kê cho khoảng thời gian này.",
+            "revenue_label": "Doanh thu",
+            "orders_label": "Số đơn"
+        },
+        "activities": {
+            "recent_orders": "Đơn hàng mới nhất",
+            "low_stock": "Sản phẩm sắp hết hàng",
+            "table_order": "Đơn hàng",
+            "table_customer": "Khách hàng",
+            "table_amount": "Giá trị",
+            "table_status": "Trạng thái",
+            "table_product": "Sản phẩm (SKU)",
+            "table_stock": "Tồn kho"
+        },
+        "status": {
+            "Pending": "Chờ xử lý",
+            "PaymentFailed": "Lỗi thanh toán",
+            "Confirmed": "Đã xác nhận",
+            "Shipping": "Đang giao hàng",
+            "Delivered": "Đã giao",
+            "Canceled": "Đã hủy",
+            "Refunded": "Đã hoàn tiền",
+            "Returned": "Đã trả hàng"
+        }
+    },
+
+    "header": {
+        "export": "Xuất dữ liệu",
+        "export_orders": "Xuất Đơn hàng",
+        "export_products": "Xuất Sản phẩm",
+        "export_categories": "Xuất Danh mục",
+        "export_reviews": "Xuất Đánh giá",
+        "export_users": "Xuất Người dùng",
+        "date_filter": "Lọc thời gian",
+        "date_options": {
+            "today": "Hôm nay",
+            "last_7_days": "7 ngày qua",
+            "last_30_days": "30 ngày qua",
+            "this_month": "Tháng này",
+            "this_year": "Năm nay",
+            "all_time": "Toàn thời gian",
+            "custom": "Tùy chỉnh..."
+        },
+        "custom_date": {
+            "title": "Chọn khoảng thời gian",
+            "from": "Từ ngày",
+            "to": "Đến ngày",
+            "apply": "Áp dụng",
+            "cancel": "Hủy"
+        }
+    },
+
+    "common": {
+        "dashboard": "Tổng quan",
+
+        "create": "Thêm",
+        "show": "Hiển thị",
+        "entries": "bản ghi",
+        "search": "Tìm theo tên...",
+        "filter_all": "Tất cả",
+        "filter_published": "Hiện",
+        "filter_draft": "Ẩn",
+        "filter_active": "Hoạt động",
+        "filter_deleted": "Thùng rác",
+        "user_banned": "Đã khóa",
+        "user_active": "Hoạt động",
+        "table": {
+            "name": "Sản phẩm",
+            "status": "Trạng thái",
+            "action": "Thao tác",
+            "loading": "Đang tải dữ liệu...",
+            "no_data": "Không có dữ liệu"
+        },
+        "status_active": "Hiện",
+        "status_draft": "Ẩn",
+        "view_more": "Xem chi tiết",
+        "update": "Chỉnh sửa",
+        "delete": "Xóa",
+        "restore": "Khôi phục",
+        "pagination": {
+            "showing": "Đang hiển thị",
+            "to": "tới",
+            "of": "trong số",
+            "entries": "bản ghi",
+            "previous": "Trước",
+            "next": "Tiếp"
+        },
+        "buttons": {
+            "draft": "Hủy bỏ",
+            "publish": "Lưu"
+        },
+        "upload": {
+            "click": "Nhấn để tải lên",
+            "drag": "hoặc kéo thả vào đây",
+            "hint": "PNG, JPG, GIF..."
+        },
+        "actions": {
+            "cancel": "Hủy bỏ",
+            "save": "Lưu",
+            "save_changes": "Lưu Cập Nhật",
+            "saving": "Đang lưu...",
+            "back": "Quay lại"
+        }
+    },
+
     "login": {
         "title": "Đăng Nhập Quản Trị",
         "subtitle": "Vui lòng nhập thông tin để truy cập bảng điều khiển hệ thống",
@@ -27,18 +151,18 @@
     "sidebar": {
         "add_new": "Thêm Mới",
         "pages": "TRANG CHÍNH",
-        "overview": "Tổng quan Dashboard",
+        "overview": "Tổng quan",
         "store_management": "Quản lý Cửa Hàng",
         "orders": "Đơn hàng",
         "banners": "Quản lý Banners",
         "catalog": "Danh mục Sản phẩm",
         "all_products": "Tất cả Sản phẩm",
-        "categories": "Danh mục ngành hàng",
+        "categories": "Quản lý Phân loại",
         "specifications": "Thông số kỹ thuật",
-        "inventory": "Quản lý Kho Bãi",
+        "inventory": "Quản lý Kho",
         "stock_ins": "Nhập hàng",
         "suppliers": "Nhà cung cấp",
-        "warehouses": "Quản lý Chi nhánh/Kho",
+        "warehouses": "Quản lý địa chỉ Kho",
         "system": "Hệ Thống & Nhân Sự",
         "users": "Khách hàng & Phân quyền",
         "team_members": "Hồ sơ nhân viên",
@@ -49,5 +173,749 @@
         "select_language": "Chọn Ngôn ngữ",
         "logout": "Đăng xuất",
         "outline": "MẠNG XÃ HỘI"
+    },
+
+    "products": {
+        "title": "Quản lý sản phẩm",
+        "table": {
+            "category": "Danh mục",
+            "stock": "Tồn kho",
+            "price": "Giá bán"
+        },
+        "filter": {
+            "all_categories": "Tất cả danh mục",
+            "search_category_placeholder": "Tìm kiếm danh mục...",
+            "category_not_found": "Không tìm thấy danh mục",
+            "category_parent": "Thuộc: "
+        },
+        "messages": {
+            "delete_success": "Xóa sản phẩm thành công!",
+            "delete_failed": "Xóa sản phẩm thất bại!",
+            "restore_success": "Khôi phục sản phẩm thành công!",
+            "restore_failed": "Khôi phục sản phẩm thất bại!",
+            "load_cat_error": "Lỗi tải danh mục",
+            "confirm_delete": "Bạn có chắc chắn muốn xóa sản phẩm này không?"
+        },
+
+        "create": {
+            "title": "Thêm Sản Phẩm Mới",
+            "basic_info": {
+                "title": "Thông Tin Sản Phẩm",
+                "name_label": "Tên sản phẩm",
+                "name_placeholder": "Nhập tên sản phẩm...",
+                "category_label": "Danh mục",
+                "category_placeholder": "Chọn danh mục...",
+                "category_search": "Tìm kiếm danh mục...",
+                "category_not_found": "Không tìm thấy kết quả.",
+                "category_parent": "Thuộc: ",
+                "status_label": "Trạng thái",
+                "status_active": "Đang hoạt động",
+                "status_draft": "Nháp (Ẩn)",
+                "desc_label": "Mô tả chi tiết",
+                "desc_placeholder": "Viết mô tả sản phẩm..."
+            },
+            "gallery": {
+                "title": "Hình Ảnh Sản Phẩm",
+                "subtitle": "Cho phép chọn nhiều ảnh",
+                "upload_btn": "Tải ảnh lên",
+                "main_image_label": "Ảnh Chính",
+                "set_main_btn": "Đặt làm ảnh chính",
+                "delete_title": "Xóa ảnh"
+            },
+            "variants": {
+                "title": "Cấu Hình Biến Thể",
+                "subtitle": "Màu sắc, kích thước, dung lượng...",
+                "add_btn": "Thêm biến thể",
+                "image_placeholder": "Ảnh đại diện",
+                "name_label": "Tên biến thể",
+                "name_placeholder": "VD: Đen 256GB",
+                "sku_label": "Mã SKU",
+                "sku_placeholder": "VD: IPHONE-BLK-256",
+                "price_label": "Giá Bán (VNĐ)",
+                "price_placeholder": "VD: 25000000",
+                "stock_label": "Kho Khởi Tạo",
+                "stock_placeholder": "VD: 50"
+            },
+            "specs": {
+                "title": "Thông Số Kỹ Thuật (Tuỳ chọn)",
+                "subtitle": "Cấu hình chi tiết giúp khách hàng dễ dàng nắm bắt thông tin",
+                "empty_state": "Sản phẩm chưa có thông số kỹ thuật nào.",
+                "add_first_btn": "Thêm thông số đầu tiên",
+                "col_name": "Tên Thông Số",
+                "col_value": "Giá Trị Cụ Thể",
+                "col_action": "Xóa",
+                "name_placeholder": "Chọn thông số...",
+                "search_placeholder": "Tìm kiếm...",
+                "not_found": "Không tìm thấy thông số nào.",
+                "create_new_btn": "Tạo thông số mới",
+                "value_placeholder": "VD: 8GB, Snapdragon 8 Gen 3...",
+                "add_row_btn": "Thêm Dòng"
+            },
+            "spec_modal": {
+                "title": "Thêm Thông Số Kỹ Thuật Mới",
+                "name_label": "Tên thông số",
+                "name_placeholder": "VD: Trọng lượng, Kết nối, Chất liệu...",
+                "hint": "Thông số này sẽ được lưu vào hệ thống và có thể tái sử dụng cho các sản phẩm khác.",
+                "cancel_btn": "Hủy",
+                "submit_btn": "Tạo mới"
+            },
+            "actions": {
+                "cancel": "Hủy bỏ",
+                "save_draft": "Lưu nháp",
+                "save": "Lưu Sản Phẩm",
+                "saving": "Đang lưu..."
+            },
+            "messages": {
+                "variant_limit": "Sản phẩm phải có ít nhất 1 biến thể!",
+                "spec_duplicate": "Thông số này đã được chọn!",
+                "spec_created": "Đã thêm thông số mới!",
+                "spec_create_error": "Lỗi tạo thông số mới",
+                "val_name_req": "Vui lòng nhập tên sản phẩm",
+                "val_cat_req": "Vui lòng chọn danh mục",
+                "val_var_req": "Vui lòng điền đầy đủ thông tin (SKU, Tên, Giá, Tồn kho) cho các biến thể",
+                "val_img_req": "Vui lòng tải lên ít nhất 1 ảnh sản phẩm (Gallery)",
+                "val_spec_req": "Vui lòng nhập giá trị cho các thông số kỹ thuật đã chọn",
+                "create_success": "Tạo sản phẩm thành công!",
+                "create_error": "Đã xảy ra lỗi khi tạo sản phẩm.",
+                "load_cat_error": "Lỗi tải danh mục",
+                "load_spec_error": "Lỗi tải specifications"
+            }
+        },
+
+        "update": {
+            "title": "Cập nhật Sản Phẩm",
+            "basic_info": {
+                "title": "Thông Tin Sản Phẩm",
+                "name_label": "Tên sản phẩm",
+                "name_placeholder": "Nhập tên sản phẩm...",
+                "category_label": "Danh mục",
+                "category_placeholder": "Chọn danh mục...",
+                "category_search": "Tìm kiếm danh mục...",
+                "category_not_found": "Không tìm thấy kết quả.",
+                "category_parent": "Thuộc: ",
+                "status_label": "Trạng thái",
+                "status_active": "Đang hoạt động",
+                "status_draft": "Nháp (Ẩn)",
+                "desc_label": "Mô tả chi tiết",
+                "desc_placeholder": "Viết mô tả sản phẩm..."
+            },
+            "gallery": {
+                "title": "Hình Ảnh Sản Phẩm",
+                "subtitle": "Cho phép chọn nhiều ảnh",
+                "upload_btn": "Tải ảnh lên",
+                "main_image_label": "Ảnh Chính",
+                "set_main_btn": "Đặt làm ảnh chính",
+                "delete_title": "Xóa ảnh"
+            },
+            "variants": {
+                "title": "Cấu Hình Biến Thể",
+                "subtitle": "Màu sắc, kích thước, dung lượng...",
+                "add_btn": "Thêm biến thể",
+                "image_placeholder": "Ảnh đại diện",
+                "name_label": "Tên biến thể",
+                "name_placeholder": "VD: Đen 256GB",
+                "sku_label": "Mã SKU",
+                "sku_placeholder": "VD: IPHONE-BLK-256",
+                "price_label": "Giá Bán (VNĐ)",
+                "price_placeholder": "VD: 25000000",
+                "stock_label": "Kho Khởi Tạo",
+                "stock_placeholder": "VD: 50"
+            },
+            "specs": {
+                "title": "Thông Số Kỹ Thuật (Tuỳ chọn)",
+                "subtitle": "Cấu hình chi tiết giúp khách hàng dễ dàng nắm bắt thông tin",
+                "empty_state": "Sản phẩm chưa có thông số kỹ thuật nào.",
+                "add_first_btn": "Thêm thông số đầu tiên",
+                "col_name": "Tên Thông Số",
+                "col_value": "Giá Trị Cụ Thể",
+                "col_action": "Xóa",
+                "name_placeholder": "Chọn thông số...",
+                "search_placeholder": "Tìm kiếm...",
+                "not_found": "Không tìm thấy thông số nào.",
+                "create_new_btn": "Tạo thông số mới",
+                "value_placeholder": "VD: 8GB, Snapdragon 8 Gen 3...",
+                "add_row_btn": "Thêm Dòng"
+            },
+            "spec_modal": {
+                "title": "Thêm Thông Số Kỹ Thuật Mới",
+                "name_label": "Tên thông số",
+                "name_placeholder": "VD: Trọng lượng, Kết nối, Chất liệu...",
+                "hint": "Thông số này sẽ được lưu vào hệ thống và có thể tái sử dụng cho các sản phẩm khác.",
+                "cancel_btn": "Hủy",
+                "submit_btn": "Tạo mới"
+            },
+            "actions": {
+                "cancel": "Hủy bỏ",
+                "save_draft": "Lưu nháp",
+                "save": "Lưu Cập Nhật",
+                "saving": "Đang lưu..."
+            },
+            "messages": {
+                "load_product_error": "Không thể tải thông tin sản phẩm.",
+                "variant_limit": "Sản phẩm phải có ít nhất 1 biến thể!",
+                "spec_duplicate": "Thông số này đã được chọn!",
+                "spec_created": "Đã thêm thông số mới!",
+                "spec_create_error": "Lỗi tạo thông số mới",
+                "val_name_req": "Vui lòng nhập tên sản phẩm",
+                "val_cat_req": "Vui lòng chọn danh mục",
+                "val_var_req": "Vui lòng điền đầy đủ thông tin (SKU, Tên, Giá, Tồn kho) cho các biến thể",
+                "val_img_req": "Vui lòng tải lên ít nhất 1 ảnh sản phẩm (Gallery)",
+                "val_spec_req": "Vui lòng nhập giá trị cho các thông số kỹ thuật đã chọn",
+                "update_success": "Cập nhật sản phẩm thành công!",
+                "update_error": "Đã xảy ra lỗi khi cập nhật sản phẩm.",
+                "load_cat_error": "Lỗi tải danh mục",
+                "load_spec_error": "Lỗi tải specifications"
+            }
+        }
+    },
+
+    "categories": {
+        "title": "Quản lý danh mục",
+        "table": {
+            "name": "Tên danh mục",
+            "parent": "Danh mục cha",
+            "created_at": "Ngày tạo"
+        },
+        "messages": {
+            "delete_success": "Xóa danh mục thành công!",
+            "delete_failed": "Xóa danh mục thất bại!",
+            "restore_success": "Khôi phục danh mục thành công!",
+            "restore_failed": "Khôi phục danh mục thất bại!",
+            "confirm_delete": "Bạn có chắc chắn muốn xóa danh mục này không?"
+        },
+        "create": {
+            "title": "Thêm Danh Mục Mới",
+            "card_title": "Thông Tin Danh Mục",
+            "form": {
+                "name_label": "Tên danh mục",
+                "name_placeholder": "Nhập tên danh mục...",
+                "parent_label": "Danh mục cha",
+                "parent_placeholder": "Chọn danh mục cha (Tùy chọn)",
+                "parent_search": "Tìm kiếm danh mục...",
+                "parent_not_found": "Không tìm thấy danh mục.",
+                "image_label": "Hình Ảnh Danh Mục"
+            },
+            "messages": {
+                "validation_error": "Vui lòng nhập tên danh mục và chọn hình ảnh!",
+                "create_success": "Thêm danh mục thành công!",
+                "create_error": "Đã xảy ra lỗi khi thêm danh mục.",
+                "load_parent_error": "Lỗi tải danh mục cha"
+            }
+        },
+
+        "update": {
+            "title": "Cập nhật Danh Mục",
+            "card_title": "Thông Tin Danh Mục",
+            "form": {
+                "name_label": "Tên danh mục",
+                "name_placeholder": "Nhập tên danh mục...",
+                "parent_label": "Danh mục cha",
+                "parent_placeholder": "Chọn danh mục cha (Tùy chọn)",
+                "parent_search": "Tìm kiếm danh mục...",
+                "parent_not_found": "Không tìm thấy danh mục.",
+                "image_label": "Hình Ảnh Danh Mục"
+            },
+            "messages": {
+                "validation_error": "Vui lòng nhập tên danh mục!",
+                "update_success": "Cập nhật danh mục thành công!",
+                "update_error": "Đã xảy ra lỗi khi cập nhật danh mục.",
+                "load_error": "Không thể tải thông tin danh mục.",
+                "load_parent_error": "Lỗi tải danh mục cha"
+            }
+        }
+    },
+
+    "specifications": {
+        "title": "Thông số kỹ thuật",
+        "table": {
+            "name": "Tên thông số"
+        },
+        "messages": {
+            "delete_success": "Xóa thông số thành công!",
+            "delete_failed": "Xóa thông số thất bại!",
+            "restore_success": "Khôi phục thông số thành công!",
+            "restore_failed": "Khôi phục thông số thất bại!",
+            "confirm_delete": "Bạn có chắc chắn muốn xóa thông số này không?"
+        },
+        "create": {
+            "title": "Thêm Thông Số Mới",
+            "card_title": "Thông Tin Thông Số",
+            "form": {
+                "name_label": "Tên thông số",
+                "name_placeholder": "VD: Trọng lượng, Độ phân giải..."
+            },
+            "messages": {
+                "validation_error": "Vui lòng nhập tên thông số!",
+                "create_success": "Thêm thông số thành công!",
+                "create_error": "Đã xảy ra lỗi khi thêm thông số."
+            }
+        },
+        "update": {
+            "title": "Cập nhật Thông Số",
+            "card_title": "Thông Tin Thông Số",
+            "form": {
+                "name_label": "Tên thông số",
+                "name_placeholder": "Nhập tên thông số..."
+            },
+            "messages": {
+                "validation_error": "Vui lòng nhập tên thông số!",
+                "update_success": "Cập nhật thông số thành công!",
+                "update_error": "Đã xảy ra lỗi khi cập nhật thông số.",
+                "load_error": "Không thể tải thông tin thông số."
+            }
+        }
+    },
+
+    "banners": {
+        "title": "Quản lý Banner",
+        "create": {
+            "title": "Thêm Banner Mới",
+            "card_info": "Thông Tin Banner",
+            "card_link": "Liên Kết (Target Link)",
+            "card_media": "Media (Hình ảnh / Video)",
+            "form": {
+                "placement_label": "Vị trí hiển thị",
+                "placement_home": "Trang chủ (Home Hero) - Ảnh",
+                "placement_portfolio": "Portfolio - Video",
+                "status_label": "Trạng thái",
+                "order_label": "Thứ tự ưu tiên",
+                "order_placeholder": "VD: 1, 2, 3...",
+                "title_label": "Tiêu đề chính",
+                "title_placeholder": "VD: DJI Avatar 2 Trình Làng",
+                "subtitle_label": "Tiêu đề phụ (Subtitle)",
+                "subtitle_placeholder": "VD: Siêu phẩm FPV 2026",
+                "desc_label": "Mô tả ngắn",
+                "desc_placeholder": "Nhập mô tả cho banner...",
+                "button_label": "Nút bấm (Call to action)",
+                "button_placeholder": "VD: Mua Ngay, Xem Thêm...",
+                "product_label": "Chọn Sản phẩm để liên kết",
+                "product_placeholder": "Chọn sản phẩm...",
+                "product_search": "Tìm kiếm theo tên sản phẩm...",
+                "product_not_found": "Không tìm thấy sản phẩm phù hợp."
+            },
+            "media": {
+                "image_label": "Tải lên Hình ảnh Banner",
+                "video_label": "Tải lên Video Banner",
+                "image_hint": "PNG, JPG, WEBP...",
+                "video_hint": "MP4, WebM (Tối đa 20MB)"
+            },
+            "messages": {
+                "val_info_req": "Vui lòng nhập đầy đủ Tiêu đề, Subtitle và Nút bấm!",
+                "val_link_req": "Vui lòng chọn 1 sản phẩm để liên kết!",
+                "val_media_req": "Vui lòng tải lên file Media (Ảnh hoặc Video) tương ứng!",
+                "create_success": "Thêm banner thành công!",
+                "create_error": "Đã xảy ra lỗi khi tạo banner."
+            }
+        },
+        "table": {
+            "title": "Tiêu đề",
+            "placement": "Vị trí",
+            "order": "Thứ tự",
+            "created_at": "Ngày tạo"
+        },
+        "filter": {
+            "all_placements": "Tất cả vị trí",
+            "portfolio": "Portfolio",
+            "home_hero": "Trang chủ"
+        },
+        "messages": {
+            "delete_success": "Xóa banner thành công!",
+            "delete_failed": "Xóa banner thất bại!",
+            "restore_success": "Khôi phục banner thành công!",
+            "restore_failed": "Khôi phục banner thất bại!",
+            "confirm_delete": "Bạn có chắc chắn muốn xóa banner này không?"
+        },
+
+        "update": {
+            "title": "Cập nhật Banner",
+            "card_info": "Thông Tin Banner",
+            "card_link": "Liên Kết (Target Link)",
+            "card_media": "Media (Hình ảnh / Video)",
+            "form": {
+                "placement_label": "Vị trí hiển thị",
+                "placement_home": "Trang chủ (Home Hero) - Ảnh",
+                "placement_portfolio": "Portfolio - Video",
+                "status_label": "Trạng thái",
+                "order_label": "Thứ tự ưu tiên",
+                "order_placeholder": "VD: 1, 2, 3...",
+                "title_label": "Tiêu đề chính",
+                "title_placeholder": "VD: DJI Avatar 2 Trình Làng",
+                "subtitle_label": "Tiêu đề phụ (Subtitle)",
+                "subtitle_placeholder": "VD: Siêu phẩm FPV 2026",
+                "desc_label": "Mô tả ngắn",
+                "desc_placeholder": "Nhập mô tả cho banner...",
+                "button_label": "Nút bấm (Call to action)",
+                "button_placeholder": "VD: Mua Ngay, Xem Thêm...",
+                "product_label": "Sản phẩm liên kết",
+                "product_placeholder": "Chọn sản phẩm...",
+                "product_search": "Tìm kiếm theo tên sản phẩm...",
+                "product_not_found": "Không tìm thấy sản phẩm phù hợp."
+            },
+            "media": {
+                "image_label": "Hình ảnh Banner",
+                "video_label": "Video Banner",
+                "image_hint": "PNG, JPG, WEBP...",
+                "video_hint": "MP4, WebM (Tối đa 20MB)"
+            },
+            "messages": {
+                "val_info_req": "Vui lòng nhập đầy đủ Tiêu đề, Subtitle và Nút bấm!",
+                "val_link_req": "Vui lòng chọn 1 sản phẩm để liên kết!",
+                "val_media_req": "Vui lòng tải lên file Media (Ảnh hoặc Video) tương ứng!",
+                "update_success": "Cập nhật banner thành công!",
+                "update_error": "Đã xảy ra lỗi khi cập nhật banner.",
+                "load_error": "Không thể tải thông tin banner."
+            }
+        }
+    },
+
+    "team": {
+        "title": "Hồ sơ nhân viên",
+        "table": {
+            "member": "Nhân viên",
+            "position": "Vị trí / Chức vụ",
+            "order": "Thứ tự",
+            "created_at": "Ngày tạo"
+        },
+        "messages": {
+            "delete_success": "Xóa hồ sơ nhân viên thành công!",
+            "delete_failed": "Xóa hồ sơ nhân viên thất bại!",
+            "restore_success": "Khôi phục hồ sơ nhân viên thành công!",
+            "restore_failed": "Khôi phục hồ sơ nhân viên thất bại!",
+            "confirm_delete": "Bạn có chắc chắn muốn xóa nhân viên này không?"
+        },
+        "create": {
+            "title": "Thêm Nhân Viên Mới",
+            "card_info": "Thông Tin Nhân Viên",
+            "card_media": "Ảnh Đại Diện (Avatar)",
+            "form": {
+                "fullname_label": "Họ và tên",
+                "fullname_placeholder": "Nhập họ tên nhân viên...",
+                "position_label": "Chức vụ / Vị trí",
+                "position_placeholder": "VD: Co-Founder, Lead Developer...",
+                "status_label": "Trạng thái",
+                "order_label": "Thứ tự ưu tiên",
+                "order_placeholder": "VD: 1, 2, 3...",
+                "bio_label": "Tiểu sử (Bio)",
+                "bio_placeholder": "Nhập giới thiệu ngắn gọn về nhân viên...",
+                "avatar_label": "Tải lên Ảnh đại diện"
+            },
+            "messages": {
+                "val_info_req": "Vui lòng nhập đầy đủ Họ tên và Chức vụ!",
+                "create_success": "Thêm nhân viên thành công!",
+                "create_error": "Đã xảy ra lỗi khi thêm nhân viên."
+            }
+        },
+        "update": {
+            "title": "Cập nhật Nhân Viên",
+            "card_info": "Thông Tin Nhân Viên",
+            "card_media": "Ảnh Đại Diện (Avatar)",
+            "form": {
+                "fullname_label": "Họ và tên",
+                "fullname_placeholder": "Nhập họ tên nhân viên...",
+                "position_label": "Chức vụ / Vị trí",
+                "position_placeholder": "VD: Co-Founder, Lead Developer...",
+                "status_label": "Trạng thái",
+                "order_label": "Thứ tự ưu tiên",
+                "order_placeholder": "VD: 1, 2, 3...",
+                "bio_label": "Tiểu sử (Bio)",
+                "bio_placeholder": "Nhập giới thiệu ngắn gọn về nhân viên...",
+                "avatar_label": "Ảnh đại diện"
+            },
+            "messages": {
+                "val_info_req": "Vui lòng nhập đầy đủ Họ tên và Chức vụ!",
+                "update_success": "Cập nhật nhân viên thành công!",
+                "update_error": "Đã xảy ra lỗi khi cập nhật nhân viên.",
+                "load_error": "Không thể tải thông tin nhân viên."
+            }
+        }
+    },
+
+    "audit_logs": {
+        "title": "Nhật ký hệ thống",
+        "table": {
+            "user": "Người thao tác",
+            "action": "Hành động",
+            "table_name": "Bảng dữ liệu",
+            "record_id": "Record ID",
+            "created_at": "Thời gian"
+        },
+        "filter": {
+            "all_actions": "Tất cả hành động",
+            "from_date": "Từ ngày",
+            "to_date": "Đến ngày",
+            "create": "Thêm",
+            "update": "Chỉnh sửa",
+            "delete": "Xóa"
+        },
+        "modal": {
+            "title": "Chi tiết thay đổi dữ liệu",
+            "empty_data": "Trống",
+            "close": "Đóng cửa sổ",
+            "field": "Trường dữ liệu",
+            "old_val": "Dữ liệu cũ",
+            "new_val": "Dữ liệu mới",
+            "boolean_true": "Có / Bật",
+            "boolean_false": "Không / Tắt"
+        }
+    },
+
+    "users": {
+        "title": "Khách hàng & Phân quyền",
+        "table": {
+            "account": "Tài khoản",
+            "phone": "Số điện thoại",
+            "role": "Vai trò",
+            "created_at": "Ngày tham gia"
+        },
+        "filter": {
+            "all_roles": "Tất cả vai trò",
+            "admin": "Quản trị viên (Admin)",
+            "staff": "Nhân viên (Staff)",
+            "user": "Khách hàng (User)"
+        },
+        "actions": {
+            "lock": "Khóa tài khoản",
+            "unlock": "Mở khóa tài khoản",
+            "promote": "Nâng quyền (Staff)",
+            "demote": "Hạ quyền (User)"
+        },
+        "messages": {
+            "status_success": "Cập nhật trạng thái thành công!",
+            "status_failed": "Cập nhật trạng thái thất bại!",
+            "role_success": "Phân quyền thành công!",
+            "role_failed": "Phân quyền thất bại!",
+            "confirm_lock": "Bạn có chắc chắn muốn khóa tài khoản này?",
+            "confirm_unlock": "Bạn có muốn mở khóa cho tài khoản này?",
+            "admin_error": "Không thể thao tác trên tài khoản Admin hệ thống!",
+            "confirm_promote": "Bạn có chắc chắn muốn nâng cấp người này lên làm Nhân viên (Staff)?",
+            "confirm_demote": "Bạn có chắc chắn muốn hạ cấp người này xuống thành Khách hàng bình thường (User)?"
+        },
+
+        "create": {
+            "title": "Thêm Tài Khoản Mới",
+            "card_info": "Thông Tin Tài Khoản",
+            "form": {
+                "name_label": "Họ và tên",
+                "name_placeholder": "Nhập họ tên...",
+                "email_label": "Địa chỉ Email",
+                "email_placeholder": "VD: user@example.com",
+                "phone_label": "Số điện thoại",
+                "phone_placeholder": "Nhập số điện thoại (Tùy chọn)...",
+                "role_label": "Phân quyền (Vai trò)",
+                "role_staff": "Nhân viên (Staff)",
+                "role_user": "Khách hàng (User)"
+            },
+            "messages": {
+                "val_info_req": "Vui lòng nhập đầy đủ Họ tên, Email và chọn Phân quyền!",
+                "create_success": "Khởi tạo tài khoản thành công! Mật khẩu đã được gửi qua email.",
+                "create_error": "Đã xảy ra lỗi khi tạo tài khoản."
+            }
+        }
+    },
+
+    "suppliers": {
+        "title": "Nhà cung cấp",
+        "table": {
+            "name": "Nhà cung cấp",
+            "contact": "Người liên hệ",
+            "phone_email": "Liên hệ (SĐT/Email)",
+            "tax_code": "Mã số thuế",
+            "created_at": "Ngày tạo"
+        },
+        "create": {
+            "title": "Thêm Nhà Cung Cấp",
+            "card_info": "Thông Tin Nhà Cung Cấp",
+            "card_media": "Logo Nhà Cung Cấp",
+            "form": {
+                "name_label": "Tên nhà cung cấp",
+                "name_placeholder": "VD: DJI Global Vietnam...",
+                "contact_label": "Người liên hệ",
+                "contact_placeholder": "VD: Nguyễn Văn A...",
+                "phone_label": "Số điện thoại",
+                "phone_placeholder": "Nhập số điện thoại...",
+                "email_label": "Địa chỉ Email",
+                "email_placeholder": "Nhập email liên hệ...",
+                "tax_label": "Mã số thuế",
+                "tax_placeholder": "Nhập mã số thuế...",
+                "address_label": "Địa chỉ",
+                "address_placeholder": "Nhập địa chỉ nhà cung cấp...",
+                "status_label": "Trạng thái",
+                "logo_label": "Tải lên Logo"
+            },
+            "messages": {
+                "val_info_req": "Vui lòng nhập Tên nhà cung cấp và Người liên hệ!",
+                "create_success": "Thêm nhà cung cấp thành công!",
+                "create_error": "Đã xảy ra lỗi khi thêm nhà cung cấp."
+            }
+        },
+        "update": {
+            "title": "Cập nhật Nhà Cung Cấp",
+            "card_info": "Thông Tin Nhà Cung Cấp",
+            "card_media": "Logo Nhà Cung Cấp",
+            "form": {
+                "name_label": "Tên nhà cung cấp",
+                "name_placeholder": "VD: DJI Global Vietnam...",
+                "contact_label": "Người liên hệ",
+                "contact_placeholder": "VD: Nguyễn Văn A...",
+                "phone_label": "Số điện thoại",
+                "phone_placeholder": "Nhập số điện thoại...",
+                "email_label": "Địa chỉ Email",
+                "email_placeholder": "Nhập email liên hệ...",
+                "tax_label": "Mã số thuế",
+                "tax_placeholder": "Nhập mã số thuế...",
+                "address_label": "Địa chỉ",
+                "address_placeholder": "Nhập địa chỉ nhà cung cấp...",
+                "status_label": "Trạng thái",
+                "logo_label": "Tải lên Logo"
+            },
+            "messages": {
+                "val_info_req": "Vui lòng nhập Tên nhà cung cấp và Người liên hệ!",
+                "update_success": "Cập nhật nhà cung cấp thành công!",
+                "update_error": "Đã xảy ra lỗi khi cập nhật.",
+                "load_error": "Không thể tải thông tin nhà cung cấp."
+            }
+        },
+        "messages": {
+            "delete_success": "Xóa nhà cung cấp thành công!",
+            "delete_failed": "Xóa nhà cung cấp thất bại!",
+            "delete_has_transaction": "Không thể xóa nhà cung cấp đã có lịch sử giao dịch nhập kho.",
+            "restore_success": "Khôi phục nhà cung cấp thành công!",
+            "restore_failed": "Khôi phục nhà cung cấp thất bại!"
+        }
+    },
+
+    "stock_ins": {
+        "title": "Quản lý Nhập kho",
+        "table": {
+            "supplier": "Nhà cung cấp",
+            "creator": "Người tạo",
+            "note": "Ghi chú",
+            "total_amount": "Tổng tiền",
+            "created_at": "Ngày nhập"
+        },
+        "filter": {
+            "all_suppliers": "Tất cả nhà cung cấp"
+        },
+        "create": {
+            "title": "Tạo Phiếu Nhập Kho",
+            "card_info": "Thông Tin Phiếu Nhập",
+            "card_items": "Chi Tiết Nhập Hàng",
+            "form": {
+                "supplier_label": "Nhà cung cấp",
+                "supplier_placeholder": "Chọn nhà cung cấp...",
+                "supplier_search": "Tìm kiếm nhà cung cấp...",
+                "supplier_not_found": "Không tìm thấy nhà cung cấp.",
+                "note_label": "Ghi chú phiếu nhập",
+                "note_placeholder": "VD: Nhập lô hàng tháng 5...",
+                "product_search": "Tìm sản phẩm...",
+                "product_not_found": "Không có kết quả.",
+                "variant_placeholder": "-- Chọn SKU --",
+                "btn_add_first": "Thêm sản phẩm đầu tiên",
+                "btn_add_row": "Thêm Dòng"
+            },
+            "item_table": {
+                "product": "SẢN PHẨM",
+                "variant": "PHIÊN BẢN (SKU)",
+                "quantity": "SỐ LƯỢNG",
+                "price": "GIÁ NHẬP (VNĐ)",
+                "subtotal": "THÀNH TIỀN",
+                "empty": "Phiếu nhập chưa có sản phẩm nào.",
+                "total_label": "TỔNG TIỀN PHIẾU NHẬP:"
+            },
+            "messages": {
+                "val_info_req": "Vui lòng chọn Nhà cung cấp!",
+                "val_items_req": "Phiếu nhập phải có ít nhất 1 sản phẩm!",
+                "val_draft_req": "Vui lòng chọn Sản phẩm và Phiên bản cho tất cả các dòng!",
+                "val_draft_invalid": "Số lượng phải > 0 và Giá nhập >= 0 ở tất cả các dòng!",
+                "create_success": "Tạo phiếu nhập kho thành công!",
+                "create_error": "Đã xảy ra lỗi khi tạo phiếu nhập."
+            }
+        },
+
+        "detail": {
+            "title": "Chi Tiết Phiếu Nhập Kho",
+            "card_info": "Thông Tin Phiếu Nhập",
+            "card_items": "Chi Tiết Hàng Hóa",
+            "receipt_id": "Mã Phiếu:",
+            "date": "Ngày Nhập:",
+            "supplier": "Nhà cung cấp:",
+            "creator": "Người lập phiếu:",
+            "note": "Ghi chú:",
+            "status": "Trạng thái:",
+            "status_done": "Đã nhập kho",
+            "print": "In phiếu nhập",
+            "not_note": "Không có ghi chú",
+            "messages": {
+                "error": "Không thể tải dữ liệu chi tiết phiếu nhập.",
+                "init_pdf": "'Đang khởi tạo file PDF...",
+                "init_pdf_success": "'Đã tạo PDF thành công!'",
+                "init_pdf_failed": "Đã xảy ra lỗi khi tạo PDF."
+            },
+            "print_pdf": "In PDF"
+        }
+    },
+    "warehouses": {
+        "title": "Quản lý Kho hàng",
+        "table": {
+            "name": "Tên Kho",
+            "contact": "Người liên hệ",
+            "phone": "Điện thoại",
+            "address": "Địa chỉ chi tiết"
+        },
+        "status": {
+            "active": "Kho Chính",
+            "inactive": "Tạm ngưng"
+        },
+        "actions": {
+            "set_active": "Đặt làm kho chính"
+        },
+        "messages": {
+            "delete_success": "Xóa kho hàng thành công!",
+            "delete_failed": "Không thể xóa kho đang hoạt động!",
+            "restore_success": "Khôi phục kho hàng thành công!",
+            "restore_failed": "Lỗi khi khôi phục kho hàng!",
+            "set_active_success": "Đã chuyển kho này thành kho chính!",
+            "set_active_failed": "Lỗi khi cập nhật trạng thái kho!"
+        },
+
+        "create": {
+            "title": "Thêm Mới Kho Hàng",
+            "card_title": "Thông Tin Kho Hàng",
+            "form": {
+                "name_label": "Tên kho hàng",
+                "name_placeholder": "Nhập tên kho...",
+                "contact_label": "Người liên hệ",
+                "contact_placeholder": "Tên người quản lý/liên hệ...",
+                "phone_label": "Số điện thoại",
+                "phone_placeholder": "Nhập số điện thoại...",
+                "address_label": "Địa chỉ chi tiết",
+                "address_placeholder": "Số nhà, tên đường...",
+                "province_label": "ID Tỉnh/Thành phố (Tạm thời)",
+                "district_label": "ID Quận/Huyện (Tạm thời)",
+                "ward_label": "Mã Phường/Xã (Tạm thời)",
+                "is_active_label": "Đặt làm kho hoạt động chính"
+            },
+            "messages": {
+                "validation_error": "Vui lòng điền đầy đủ các thông tin bắt buộc!",
+                "create_success": "Thêm kho hàng thành công!",
+                "create_error": "Đã xảy ra lỗi khi thêm kho hàng."
+            },
+            "actions": {
+                "saving": "Đang lưu..."
+            }
+        },
+
+        "update": {
+            "title": "Cập Nhật Kho Hàng",
+            "card_title": "Chỉnh Sửa Thông Tin Kho",
+            "messages": {
+                "fetch_error": "Không thể tải dữ liệu kho hàng!",
+                "update_success": "Cập nhật kho hàng thành công!",
+                "update_error": "Đã xảy ra lỗi khi cập nhật."
+            },
+            "actions": {
+                "saving": "Đang cập nhật..."
+            }
+        }
     }
 }

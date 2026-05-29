@@ -1,5 +1,5 @@
 import { ProductDetail, ProductCardItem } from '../types/product';
-import axiosInstance from './axios';
+import axiosInstance, { UPLOAD_CONFIG } from './axios';
 
 export const apiProduct = {
     getNewArrivals: async (limit: number = 2): Promise<ProductCardItem[]> => {
@@ -87,6 +87,131 @@ export const apiProduct = {
             return response.data;
         } catch (error) {
             console.error('Failed to get categories', error);
+            throw error;
+        }
+    },
+
+    //ADMIN ROUTES
+    getProductsPaginationForAdmin: async (params = {}) => {
+        try {
+            const response = await axiosInstance.get(`api/admin/products`, {
+                params,
+            });
+            return response.data.data;
+        } catch (e) {
+            console.error('Fetch all product for admin error: ', e);
+            throw e;
+        }
+    },
+
+    createProduct: async (data: any) => {
+        try {
+            const response = await axiosInstance.post(
+                'api/admin/products',
+                data
+            );
+            return response.data;
+        } catch (error) {
+            console.error('Error creating product: ', error);
+            throw error;
+        }
+    },
+
+    uploadProductImages: async (id: any, data: FormData) => {
+        try {
+            const response = await axiosInstance.post(
+                `api/admin/products/${id}/images`,
+                data,
+                UPLOAD_CONFIG
+            );
+            return response.data;
+        } catch (error) {
+            console.error('Error uploading product images: ', error);
+            throw error;
+        }
+    },
+
+    uploadTempVariantImage: async (data: FormData) => {
+        try {
+            const response = await axiosInstance.post(
+                'api/admin/products/upload-temp-variant',
+                data,
+                UPLOAD_CONFIG
+            );
+            return response.data;
+        } catch (error) {
+            console.error('Error uploading temp variant image: ', error);
+            throw error;
+        }
+    },
+
+    getProductSpecifications: async (productId: number | string) => {
+        try {
+            const response = await axiosInstance.get(
+                `api/admin/products/${productId}/specifications`
+            );
+            return response.data;
+        } catch (error) {
+            console.error('Error fetching product specifications:', error);
+            throw error;
+        }
+    },
+
+    updateProductSpecifications: async (productId: any, data: any) => {
+        const response = await axiosInstance.put(
+            `api/admin/products/${productId}/specifications`,
+            data
+        );
+        return response.data;
+    },
+
+    getProductById: async (id: any) => {
+        try {
+            const response = await axiosInstance.get(
+                `api/admin/products/${id}`
+            );
+            return response.data;
+        } catch (error) {
+            console.error('Error fetching product by id: ', error);
+            throw error;
+        }
+    },
+
+    updateProduct: async (id: any, data: any) => {
+        try {
+            const response = await axiosInstance.put(
+                `api/admin/products/${id}`,
+                data
+            );
+            return response.data;
+        } catch (error) {
+            console.error('Error updating product: ', error);
+            throw error;
+        }
+    },
+
+    deleteProduct: async (id: any) => {
+        try {
+            const response = await axiosInstance.delete(
+                `api/admin/products/${id}`
+            );
+            console.log('Delete product success:', response.data);
+            return response.data;
+        } catch (error) {
+            console.error('Delete product error:', error);
+            throw error;
+        }
+    },
+
+    restoreProduct: async (id: any) => {
+        try {
+            const response = await axiosInstance.put(
+                `api/admin/products/${id}/restore`
+            );
+            console.log('Restore product success:', response.data);
+            return response.data;
+        } catch (error) {
+            console.error('Restore product error:', error);
             throw error;
         }
     },

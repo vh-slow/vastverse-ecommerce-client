@@ -1,8 +1,8 @@
+'use client';
 
 import React, { useEffect } from 'react';
 
 export default function Footer() {
-    
     return (
         <footer className="p-6 text-sm flex justify-between items-center">
             <p className="text-gray-600">

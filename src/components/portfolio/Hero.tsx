@@ -22,7 +22,7 @@ export default function Hero() {
                     playsInline
                 >
                     <source
-                        src="https://cdn.sanity.io/files/fdrwu6gi/production/93a92e0e883f2a72f1c9b9cf4dc2ffd415517b36.mp4"
+                        src="/videos/background-vastverse.mp4"
                         type="video/mp4"
                     />
                 </video>

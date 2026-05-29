@@ -212,7 +212,7 @@ export default function Sidebar() {
                             </Link>
                         </li>
                         <li>
-                            <Link href="/admin/team">
+                            <Link href="/admin/team-members">
                                 {t('sidebar.team_members')}
                             </Link>
                         </li>
